@@ -1,4 +1,4 @@
-# MajorApi Worker
+# MajorApi
 MajorApi was a service that made it very easy to connect to QuickBooks. It created a REST API between the QuickBooks WebConnector application and QuickBooks Desktop. Unfortunately, the service failed to take off, so we shut it down after a year of use and open sourced the code.o
 
 The codebase is comprised of two repositories. This repository is the code that handled all of the background data processing through Resque. The [major-api][major-api] repository contains the main website and QuickBooks REST API.
