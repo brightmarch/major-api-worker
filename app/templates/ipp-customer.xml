@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<Add xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.intuit.com/sb/cdm/v2" RequestId="{{ requestId }}" FullResponse="true">
+    <ExternalRealmId>{{ realmId }}</ExternalRealmId>
+    <Object xsi:type="Customer">
+        <TypeOf>Person</TypeOf>
+        <Name>{{ quickbooksCustomer.name }}</Name>
+        {% if quickbooksCustomer.bill_address1|length > 0 %}
+            <Address>
+                <Line1>{{ quickbooksCustomer.bill_address1 }}</Line1>
+                {% if quickbooksCustomer.bill_address2|length > 0 %}
+                    <Line2>{{ quickbooksCustomer.bill_address2 }}</Line2>
+                {% endif %}
+                {% if quickbooksCustomer.bill_address3|length > 0 %}
+                    <Line3>{{ quickbooksCustomer.bill_address3 }}</Line3>
+                {% endif %}
+                {% if quickbooksCustomer.bill_address4|length > 0 %}
+                    <Line4>{{ quickbooksCustomer.bill_address4 }}</Line4>
+                {% endif %}
+                {% if quickbooksCustomer.bill_address5|length > 0 %}
+                    <Line5>{{ quickbooksCustomer.bill_address5 }}</Line5>
+                {% endif %}
+                <City>{{ quickbooksCustomer.bill_city }}</City>
+                <Country>{{ quickbooksCustomer.bill_country }}</Country>
+                <CountrySubDivisionCode>{{ quickbooksCustomer.bill_state }}</CountrySubDivisionCode>
+                <PostalCode>{{ quickbooksCustomer.bill_postal_code }}</PostalCode>
+                <Tag>Billing</Tag>
+            </Address>
+        {% endif %}
+        {% if quickbooksCustomer.ship_address1|length > 0 %}
+            <Address>
+                <Line1>{{ quickbooksCustomer.ship_address1 }}</Line1>
+                {% if quickbooksCustomer.ship_address2|length > 0 %}
+                    <Line2>{{ quickbooksCustomer.ship_address2 }}</Line2>
+                {% endif %}
+                {% if quickbooksCustomer.ship_address3|length > 0 %}
+                    <Line3>{{ quickbooksCustomer.ship_address3 }}</Line3>
+                {% endif %}
+                {% if quickbooksCustomer.ship_address4|length > 0 %}
+                    <Line4>{{ quickbooksCustomer.ship_address4 }}</Line4>
+                {% endif %}
+                {% if quickbooksCustomer.ship_address5|length > 0 %}
+                    <Line5>{{ quickbooksCustomer.ship_address5 }}</Line5>
+                {% endif %}
+                <City>{{ quickbooksCustomer.ship_city }}</City>
+                <Country>{{ quickbooksCustomer.ship_country }}</Country>
+                <CountrySubDivisionCode>{{ quickbooksCustomer.ship_state }}</CountrySubDivisionCode>
+                <PostalCode>{{ quickbooksCustomer.ship_postal_code }}</PostalCode>
+                <Tag>Shipping</Tag>
+            </Address>
+        {% endif %}
+        {% if quickbooksCustomer.phone|length > 0 %}
+            <Phone>
+                <FreeFormNumber>{{ quickbooksCustomer.phone }}</FreeFormNumber>
+                <Tag>Business</Tag>
+            </Phone>
+        {% endif %}
+        {% if quickbooksCustomer.email|length > 0 %}
+            <Email>
+                <Address>{{ quickbooksCustomer.email }}</Address>
+                <Tag>Business</Tag>
+            </Email>
+        {% endif %}
+        <DBAName>{{ quickbooksCustomer.company_name }}</DBAName>
+    </Object>
+</Add>

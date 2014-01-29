@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<QBXML>
+  <QBXMLMsgsRs>
+    <SalesRepQueryRs statusCode="0" statusSeverity="Info" statusMessage="Status OK">
+      <SalesRepRet>
+        <ListID>80000001-1358165937</ListID>
+        <TimeCreated>2013-01-14T06:18:57-06:00</TimeCreated>
+        <TimeModified>2013-01-14T06:18:57-06:00</TimeModified>
+        <EditSequence>1358165937</EditSequence>
+        <Initial>VMC</Initial>
+        <IsActive>true</IsActive>
+        <SalesRepEntityRef>
+          <ListID>8000000B-1358165667</ListID>
+          <FullName>Vic M Cherubini</FullName>
+        </SalesRepEntityRef>
+      </SalesRepRet>
+    </SalesRepQueryRs>
+  </QBXMLMsgsRs>
+</QBXML>

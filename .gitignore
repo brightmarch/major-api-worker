@@ -1,0 +1,16 @@
+/app/bin/phing/
+/app/config/build.settings
+/app/config/config-majorapi-worker.php
+/app/config/config-postgres.php
+/app/config/config-redis.php
+/app/templates_cache/*
+vendor
+composer.phar
+doctrine-migrations.phar
+phpunit.phar
+phing
+log
+REVISION
+public
+tmp
+*.swp

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<QBXML>
+  <QBXMLMsgsRs>
+    <AccountQueryRs statusCode="0" statusSeverity="Info" statusMessage="Status OK">
+      <AccountRet>
+        <ListID>80000007-1357556730</ListID>
+        <TimeCreated>2013-01-07T05:05:30-06:00</TimeCreated>
+        <TimeModified>2013-01-08T21:55:07-06:00</TimeModified>
+        <EditSequence>1357556730</EditSequence>
+        <Name>Wells Fargo</Name>
+        <FullName>Wells Fargo Banc INC</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <AccountType>OtherCurrentLiability</AccountType>
+        <SpecialAccountType>DirectDepositLiabilities</SpecialAccountType>
+        <AccountNumber>889976</AccountNumber>
+        <BankNumber>88997600001</BankNumber>
+        <Desc>Wells Fargo Primary Bank Account</Desc>
+        <Balance>29883.56</Balance>
+        <TotalBalance>156889.29</TotalBalance>
+        <CashFlowClassification>Investing</CashFlowClassification>
+      </AccountRet>
+    </AccountQueryRs>
+  </QBXMLMsgsRs>
+</QBXML>

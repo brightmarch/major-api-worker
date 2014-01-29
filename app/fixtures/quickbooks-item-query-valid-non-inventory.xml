@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<QBXML>
+  <QBXMLMsgsRs>
+    <ItemQueryRs statusCode="0" statusSeverity="Info" statusMessage="Status OK">
+      <ItemNonInventoryRet>
+        <ListID>800012D8-1332520560</ListID>
+        <TimeCreated>2012-03-23T11:36:00-06:00</TimeCreated>
+        <TimeModified>2012-05-03T09:39:28-06:00</TimeModified>
+        <EditSequence>1336055968</EditSequence>
+        <Name>32312</Name>
+        <FullName>32312</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <SalesTaxCodeRef>
+          <ListID>80000001-1314414198</ListID>
+          <FullName>Tax</FullName>
+        </SalesTaxCodeRef>
+        <SalesAndPurchase>
+          <SalesDesc>1' Female Flow Control Valve</SalesDesc>
+          <SalesPrice>8.00</SalesPrice>
+          <IncomeAccountRef>
+            <ListID>8000000E-1314551091</ListID>
+            <FullName>Cost of Goods Sold:Parts</FullName>
+          </IncomeAccountRef>
+          <PurchaseDesc>1' Female Flow Control Valve</PurchaseDesc>
+          <PurchaseCost>4.00</PurchaseCost>
+          <ExpenseAccountRef>
+            <ListID>80000097-1314576589</ListID>
+            <FullName>Cost of Sales - Materials</FullName>
+          </ExpenseAccountRef>
+        </SalesAndPurchase>
+      </ItemNonInventoryRet>
+    </ItemQueryRs>
+  </QBXMLMsgsRs>
+</QBXML>

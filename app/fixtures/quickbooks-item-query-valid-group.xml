@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<QBXML>
+  <QBXMLMsgsRs>
+    <ItemQueryRs statusCode="0" statusSeverity="Info" statusMessage="Status OK">
+      <ItemGroupRet>
+        <ListID>80000567-1314563125</ListID>
+        <TimeCreated>2011-08-28T15:25:25-06:00</TimeCreated>
+        <TimeModified>2012-05-03T09:31:33-06:00</TimeModified>
+        <EditSequence>1336055493</EditSequence>
+        <Name>ADA1045</Name>
+        <IsActive>true</IsActive>
+        <ItemDesc>Premium Air Power Toilet Elongated Bowl</ItemDesc>
+        <IsPrintItemsInGroup>false</IsPrintItemsInGroup>
+        <ItemGroupLine>
+          <ItemRef>
+            <ListID>8000120F-1316364423</ListID>
+            <FullName>Labor</FullName>
+          </ItemRef>
+          <Quantity>2</Quantity>
+        </ItemGroupLine>
+        <ItemGroupLine>
+          <ItemRef>
+            <ListID>80000272-1314551091</ListID>
+            <FullName>BB FIXTURES:PT-ADA1045</FullName>
+          </ItemRef>
+        </ItemGroupLine>
+      </ItemGroupRet>
+    </ItemQueryRs>
+  </QBXMLMsgsRs>
+</QBXML>

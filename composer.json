@@ -1,0 +1,25 @@
+{
+    "name": "MajorApi Worker",
+    "authors": [
+        {
+            "name": "Vic Cherubini",
+            "email": "vcherubini@majorapi.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "ext-redis": "*",
+        "doctrine/dbal": "2.4.*@dev",
+        "chrisboulton/php-resque": "dev-master",
+        "symfony/console": "2.1.6",
+        "monolog/monolog": "1.4.*@dev",
+        "twig/twig": "v1.12.2"
+    },
+    "autoload": {
+        "psr-0": {
+            "MajorApi": "src",
+            "MajorApi\\Tests": "tests"
+        }
+    },
+    "minimum-stability": "dev"
+}

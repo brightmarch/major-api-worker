@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<RestResponse xmlns="http://www.intuit.com/sb/cdm/v2">
+  <Success RequestId="c90d622d3a5e4442b67ed5f1cc0d0392">
+    <Customer>
+      <Id idDomain="NG">225067</Id>
+      <SyncToken>1</SyncToken>
+      <MetaData>
+        <CreatedBy>app</CreatedBy>
+        <CreateTime>2013-04-03T10:32:07Z</CreateTime>
+        <LastModifiedBy>app</LastModifiedBy>
+        <LastUpdatedTime>2013-04-03T10:32:07Z</LastUpdatedTime>
+      </MetaData>
+      <Synchronized>false</Synchronized>
+      <PartyReferenceId idDomain="NG">229038</PartyReferenceId>
+      <TypeOf>Person</TypeOf>
+      <Name>Billy James</Name>
+      <Address>
+        <Id idDomain="NG">551922</Id>
+        <Line1>1000 James Way</Line1>
+        <City>Dallas</City>
+        <Country>USA</Country>
+        <CountrySubDivisionCode>TX</CountrySubDivisionCode>
+        <PostalCode>75228</PostalCode>
+        <Default>true</Default>
+        <Tag>Billing</Tag>
+      </Address>
+      <DBAName>James, Inc.</DBAName>
+      <ShowAs>Billy James</ShowAs>
+      <AcctNum>4111555</AcctNum>
+    </Customer>
+    <RequestName>CustomerAdd</RequestName>
+    <ProcessedTime>2013-04-03T10:32:07Z</ProcessedTime>
+  </Success>
+</RestResponse>

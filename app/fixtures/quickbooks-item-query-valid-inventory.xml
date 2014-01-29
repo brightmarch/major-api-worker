@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<QBXML>
+  <QBXMLMsgsRs>
+    <ItemQueryRs statusCode="0" statusSeverity="Info" statusMessage="Status OK">
+      <ItemInventoryRet>
+        <ListID>800012D8-1332520560</ListID>
+        <TimeCreated>2012-03-23T11:36:00-06:00</TimeCreated>
+        <TimeModified>2012-05-03T09:39:28-06:00</TimeModified>
+        <EditSequence>1336055968</EditSequence>
+        <Name>32312</Name>
+        <FullName>32312</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <ReorderPoint>10</ReorderPoint>
+        <QuantityOnHand>5</QuantityOnHand>
+        <QuantityOnOrder>10</QuantityOnOrder>
+        <QuantityOnSalesOrder>0</QuantityOnSalesOrder>
+        <AverageCost>15.93</AverageCost>
+      </ItemInventoryRet>
+    </ItemQueryRs>
+  </QBXMLMsgsRs>
+</QBXML>

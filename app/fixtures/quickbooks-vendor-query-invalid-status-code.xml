@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<QBXML>
+  <QBXMLMsgsRs>
+    <VendorQueryRs statusCode="3180" statusMessage="QuickBooks Error Message" />
+  </QBXMLMsgsRs>
+</QBXML>

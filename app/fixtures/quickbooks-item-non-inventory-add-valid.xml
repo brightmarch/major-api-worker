@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<QBXML>
+  <QBXMLMsgsRs>
+    <ItemNonInventoryAddRs statusCode="0" statusSeverity="Info" statusMessage="Status OK">
+      <ItemNonInventoryRet>
+        <ListID>80000006-1367143254</ListID>
+        <TimeCreated>2013-04-28T05:00:54-06:00</TimeCreated>
+        <TimeModified>2013-04-28T05:00:54-06:00</TimeModified>
+        <EditSequence>1367143254</EditSequence>
+        <Name>StripeCharge</Name>
+        <FullName>StripeCharge</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <SalesTaxCodeRef>
+          <ListID>80000001-1357067558</ListID>
+          <FullName>Tax</FullName>
+        </SalesTaxCodeRef>
+        <SalesOrPurchase>
+          <Desc>StripeCharge</Desc>
+          <Price>0.01</Price>
+          <AccountRef>
+            <ListID>8000001D-1357068489</ListID>
+            <FullName>Sales Income</FullName>
+          </AccountRef>
+        </SalesOrPurchase>
+      </ItemNonInventoryRet>
+    </ItemNonInventoryAddRs>
+  </QBXMLMsgsRs>
+</QBXML>

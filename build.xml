@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="MajorApi Worker" default="build">
+
+    <property name="relative_root_path" value="./" />
+
+    <resolvepath propertyName="root_path" file="${relative_root_path}" />
+    <php function="date" returnProperty="build_date">
+        <param value="c"/>
+    </php>
+
+    <target name="build" depends="clean,compile-configuration,compile-vendors"></target>
+    <target name="deploy" depends="compile-configuration,compile-vendors,compile-composer-cache"></target>
+
+    <target name="clean">
+        <delete dir="${root_path}/vendor/" />
+        <delete file="${root_path}/app/config/config-postgres.php" />
+        <delete file="${root_path}/app/config/config-redis.php" />
+    </target>
+
+    <target name="compile-vendors">
+        <exec command="php composer.phar install --optimize-autoloader" checkreturn="true" />
+    </target>
+
+    <target name="compile-composer-cache">
+        <exec command="php composer.phar dump-autoload --optimize" checkreturn="true" />
+    </target>
+
+    <target name="compile-configuration">
+        <available file="${build_settings_file}" property="build_settings_file_exists" value="1" />
+        <if>
+            <equals arg1="${build_settings_file_exists}" arg2="1" />
+            <then>
+                <property file="${build_settings_file}" />
+            </then>
+        </if>
+
+        <copy file="${root_path}/app/config/config-majorapi-worker.php.template" tofile="${root_path}/app/config/config-majorapi-worker.php" overwrite="true">
+            <filterchain>
+                <replacetokens begintoken="@@" endtoken="@@">
+                    <token key="TEST_ACCOUNT_EMAIL" value="${test_account_email}" />
+                    <token key="TEST_ACCOUNT_PASSWORD" value="${test_account_password}" />
+                    <token key="TEST_APPLICATION_USERNAME" value="${test_application_username}" />
+                    <token key="TEST_IPP_OAUTH_CONSUMER_KEY" value="${test_ipp_oauth_consumer_key}" />
+                    <token key="TEST_IPP_OAUTH_CONSUMER_SECRET" value="${test_ipp_oauth_consumer_secret}" />
+                    <token key="TEST_IPP_OAUTH_TOKEN" value="${test_ipp_oauth_token}" />
+                    <token key="TEST_IPP_OAUTH_TOKEN_SECRET" value="${test_ipp_oauth_token_secret}" />
+                    <token key="TEST_IPP_REALM_ID" value="${test_ipp_realm_id}" />
+
+                    <token key="IPP_APP_TOKEN" value="${ipp_app_token}" />
+                    <token key="IPP_OAUTH_CONSUMER_KEY" value="${ipp_oauth_consumer_key}" />
+                    <token key="IPP_OAUTH_CONSUMER_SECRET" value="${ipp_oauth_consumer_secret}" />
+                </replacetokens>
+            </filterchain>
+        </copy>
+
+        <copy file="${root_path}/app/config/config-postgres.php.template" tofile="${root_path}/app/config/config-postgres.php" overwrite="true">
+            <filterchain>
+                <replacetokens begintoken="@@" endtoken="@@">
+                    <token key="DB_SETTINGS_HOST" value="${db_settings.host}" />
+                    <token key="DB_SETTINGS_DATABASE" value="${db_settings.database}" />
+                    <token key="DB_SETTINGS_USERNAME" value="${db_settings.username}" />
+                    <token key="DB_SETTINGS_PASSWORD" value="${db_settings.password}" />
+                </replacetokens>
+            </filterchain>
+        </copy>
+
+        <copy file="${root_path}/app/config/config-redis.php.template" tofile="${root_path}/app/config/config-redis.php" overwrite="true">
+            <filterchain>
+                <replacetokens begintoken="@@" endtoken="@@">
+                    <token key="REDIS_HOST" value="${redis_host}" />
+                    <token key="REDIS_PORT" value="${redis_port}" />
+                </replacetokens>
+            </filterchain>
+        </copy>
+    </target>
+</project>

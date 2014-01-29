@@ -1,0 +1,7 @@
+<?php
+
+return [
+    'host' => '@@REDIS_HOST@@',
+    'port' => '@@REDIS_PORT@@',
+    'dsn' => '@@REDIS_HOST@@:@@REDIS_PORT@@'
+];

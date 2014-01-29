@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<QBXML>
+  <QBXMLMsgsRs>
+    <CustomerQueryRs statusCode="0" statusSeverity="Info" statusMessage="Status OK">
+      <CustomerRet>
+        <ListID>80000007-1357556730</ListID>
+        <TimeCreated>2013-01-07T05:05:30-06:00</TimeCreated>
+        <TimeModified>2013-01-08T21:55:07-06:00</TimeModified>
+        <EditSequence>1357556730</EditSequence>
+        <Name>Vic Cherubini</Name>
+        <FullName>Vic Cherubini</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <CompanyName>Major.com</CompanyName>
+        <Phone>214-641-6201</Phone>
+        <Email>vcherubini@major.com</Email>
+        <AdditionalContactRef>
+          <ContactName>Main Phone</ContactName>
+          <ContactValue>214-641-6201</ContactValue>
+        </AdditionalContactRef>
+        <AdditionalContactRef>
+          <ContactName>Main Email</ContactName>
+          <ContactValue>vcherubini@major.com</ContactValue>
+        </AdditionalContactRef>
+        <Balance>150.00</Balance>
+        <TotalBalance>150.00</TotalBalance>
+        <SalesTaxCodeRef>
+          <ListID>80000001-1357067558</ListID>
+          <FullName>Tax</FullName>
+        </SalesTaxCodeRef>
+        <ItemSalesTaxRef>
+          <ListID>80000001-1357067958</ListID>
+          <FullName>Out of State</FullName>
+        </ItemSalesTaxRef>
+        <JobStatus>None</JobStatus>
+        <Notes>Primary purchaser for major.com</Notes>
+      </CustomerRet>
+    </CustomerQueryRs>
+  </QBXMLMsgsRs>
+</QBXML>

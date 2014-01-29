@@ -1,0 +1,1 @@
+<?xml version="1.0" ?><RestResponse xmlns="http://www.intuit.com/sb/cdm/v2"><Error RequestId="3d0148c5f8002c82759e4e4d652d9b1f"><RequestName>ErrorRequest</RequestName><ProcessedTime>2013-04-01T15:45:24.782Z</ProcessedTime><ErrorCode>-3002</ErrorCode><ErrorDesc>sdk NAME must be unique in QB! name = BMAccount2</ErrorDesc><DBErrorCode>20345</DBErrorCode></Error></RestResponse>

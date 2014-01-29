@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<QBXML>
+  <QBXMLMsgsRs>
+    <VendorQueryRs statusCode="0" statusSeverity="Info" statusMessage="Status OK">
+      <VendorRet>
+        <ListID>80000007-1357556730</ListID>
+        <TimeCreated>2013-01-07T05:05:30-06:00</TimeCreated>
+        <TimeModified>2013-01-08T21:55:07-06:00</TimeModified>
+        <EditSequence>1357556730</EditSequence>
+        <Name>Apple, Inc.</Name>
+        <IsActive>true</IsActive>
+        <CompanyName>Apple, Inc.</CompanyName>
+        <Salutation>Mr.</Salutation>
+        <FirstName>Steve</FirstName>
+        <MiddleName>A</MiddleName>
+        <LastName>Jobs</LastName>
+        <JobTitle>CEO</JobTitle>
+        <VendorAddress>
+          <Addr1>1 Infinite Loop</Addr1>
+          <Addr2>#100</Addr2>
+          <City>Cupertino</City>
+          <State>CA</State>
+          <PostalCode>90210</PostalCode>
+          <Country>USA</Country>
+          <Note></Note>
+        </VendorAddress>
+        <ShipAddress>
+          <Addr1>1 Infinite Loop</Addr1>
+          <Addr2>#100</Addr2>
+          <City>Cupertino</City>
+          <State>CA</State>
+          <PostalCode>90210</PostalCode>
+          <Country>USA</Country>
+          <Note>STRTYPE</Note>
+        </ShipAddress>
+        <Phone>999-333-4444</Phone>
+        <AltPhone>777-222-1111</AltPhone>
+        <Fax>888-333-1111</Fax>
+        <Email>steve@apple.com</Email>
+        <Cc>steve.jobs@apple.com</Cc>
+        <Contact>Steve Jobs</Contact>
+        <AltContact>Tim Cook</AltContact>
+        <ContactsRet>
+          <ListID>80000007-1357556731</ListID>
+          <TimeCreated>2013-01-07T05:05:30-06:00</TimeCreated>
+          <TimeModified>2013-01-08T21:55:07-06:00</TimeModified>
+          <EditSequence>135777839</EditSequence>
+          <Contact>Barry Apple</Contact>
+          <Salutation>Mr.</Salutation>
+          <FirstName>Barry</FirstName>
+          <LastName>Apple</LastName>
+          <JobTitle>CIO</JobTitle>
+        </ContactsRet>
+        <ContactsRet>
+          <ListID>80000007-1357556732</ListID>
+          <TimeCreated>2013-01-07T05:05:30-06:00</TimeCreated>
+          <TimeModified>2013-01-08T21:55:07-06:00</TimeModified>
+          <EditSequence>135777839</EditSequence>
+          <Contact>Melissa Samsung</Contact>
+          <Salutation>Mrs.</Salutation>
+          <FirstName>Melissa</FirstName>
+          <LastName>Samsung</LastName>
+          <JobTitle>Provocateur</JobTitle>
+        </ContactsRet>
+        <NameOnCheck>Steve Jobs</NameOnCheck>
+        <AccountNumber>11223344</AccountNumber>
+        <Notes>This is our biggest client be nice to them.</Notes>
+        <AdditionalNotesRet>
+          <NoteID>1</NoteID>
+          <Date>2013-01-07</Date>
+          <Note>Please allow up to 10 days for delivery.</Note>
+        </AdditionalNotesRet>
+        <AdditionalNotesRet>
+          <NoteID>2</NoteID>
+          <Date>2013-01-08</Date>
+          <Note>Apple pays net-30 so please take this into account.</Note>
+        </AdditionalNotesRet>
+        <CreditLimit>160000</CreditLimit>
+        <VendorTaxIdent>AppleTaxID</VendorTaxIdent>
+        <IsVendorEligibleFor1099>true</IsVendorEligibleFor1099>
+        <Balance>56899.45</Balance>
+      </VendorRet>
+    </VendorQueryRs>
+  </QBXMLMsgsRs>
+</QBXML>

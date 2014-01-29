@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<QBXML>
+  <QBXMLMsgsRs>
+    <ItemQueryRs statusCode="0" statusSeverity="Info" statusMessage="Status OK">
+      <ItemServiceRet>
+        <ListID>80001304-1346086228</ListID>
+        <TimeCreated>2012-08-27T11:50:28-06:00</TimeCreated>
+        <TimeModified>2012-08-27T14:51:53-06:00</TimeModified>
+        <EditSequence>1346097113</EditSequence>
+        <Name>BMServiceFee</Name>
+        <FullName>BMServiceFee</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <SalesTaxCodeRef>
+          <ListID>80000002-1314414198</ListID>
+          <FullName>Non</FullName>
+        </SalesTaxCodeRef>
+        <SalesOrPurchase>
+          <Desc>$39 Service Fee</Desc>
+          <Price>39.00</Price>
+          <AccountRef>
+            <ListID>80000092-1314576589</ListID>
+            <FullName>General Services</FullName>
+          </AccountRef>
+        </SalesOrPurchase>
+      </ItemServiceRet>
+      <ItemServiceRet>
+        <ListID>8000120F-1316364423</ListID>
+        <TimeCreated>2011-09-18T11:47:03-06:00</TimeCreated>
+        <TimeModified>2012-05-03T09:39:28-06:00</TimeModified>
+        <EditSequence>1336055968</EditSequence>
+        <Name>Labor</Name>
+        <FullName>Labor</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <SalesTaxCodeRef>
+          <ListID>80000002-1314414198</ListID>
+          <FullName>Non</FullName>
+        </SalesTaxCodeRef>
+        <SalesAndPurchase>
+          <SalesDesc>Labor</SalesDesc>
+          <SalesPrice>212.50</SalesPrice>
+          <IncomeAccountRef>
+            <ListID>8000000B-1314551079</ListID>
+            <FullName>Services Income</FullName>
+          </IncomeAccountRef>
+          <PurchaseDesc>Labor</PurchaseDesc>
+          <PurchaseCost>212.50</PurchaseCost>
+          <ExpenseAccountRef>
+            <ListID>8000000C-1314551079</ListID>
+            <FullName>Cost of Goods Sold:Direct Labor</FullName>
+          </ExpenseAccountRef>
+        </SalesAndPurchase>
+      </ItemServiceRet>
+    </ItemQueryRs>
+  </QBXMLMsgsRs>
+</QBXML>

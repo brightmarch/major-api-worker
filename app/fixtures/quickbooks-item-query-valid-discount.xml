@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<QBXML>
+  <QBXMLMsgsRs>
+    <ItemQueryRs statusCode="0" statusSeverity="Info" statusMessage="Status OK">
+      <ItemDiscountRet>
+        <ListID>80000FF8-1315855441</ListID>
+        <TimeCreated>2011-09-12T14:24:01-06:00</TimeCreated>
+        <TimeModified>2012-05-03T09:31:33-06:00</TimeModified>
+        <EditSequence>1336055493</EditSequence>
+        <Name>ADD</Name>
+        <FullName>ADD</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <ItemDesc>Add on Discount</ItemDesc>
+        <SalesTaxCodeRef>
+          <ListID>80000002-1314414198</ListID>
+          <FullName>Non</FullName>
+        </SalesTaxCodeRef>
+        <DiscountRatePercent>15.00</DiscountRatePercent>
+        <AccountRef>
+          <ListID>80000096-1314576589</ListID>
+          <FullName>Discounts &amp; Coupons</FullName>
+        </AccountRef>
+      </ItemDiscountRet>
+    </ItemQueryRs>
+  </QBXMLMsgsRs>
+</QBXML>

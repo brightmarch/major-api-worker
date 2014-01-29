@@ -1,0 +1,15 @@
+<?php
+
+return [
+    'test_account_email'             => '@@TEST_ACCOUNT_EMAIL@@',
+    'test_account_password'          => '@@TEST_ACCOUNT_PASSWORD@@',
+    'test_application_username'      => '@@TEST_APPLICATION_USERNAME@@',
+    'test_ipp_oauth_consumer_key'    => '@@TEST_IPP_OAUTH_CONSUMER_KEY@@',
+    'test_ipp_oauth_consumer_secret' => '@@TEST_IPP_OAUTH_CONSUMER_SECRET@@',
+    'test_ipp_oauth_token'           => '@@TEST_IPP_OAUTH_TOKEN@@',
+    'test_ipp_oauth_token_secret'    => '@@TEST_IPP_OAUTH_TOKEN_SECRET@@',
+    'test_ipp_realm_id'              => '@@TEST_IPP_REALM_ID@@',
+    'ipp_app_token'                  => '@@IPP_APP_TOKEN@@',
+    'ipp_oauth_consumer_key'         => '@@IPP_OAUTH_CONSUMER_KEY@@',
+    'ipp_oauth_consumer_secret'      => '@@IPP_OAUTH_CONSUMER_SECRET@@'
+];

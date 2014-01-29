@@ -1,0 +1,9 @@
+<?php
+
+return [
+    'driver'   => 'pdo_pgsql',
+    'host'     => '@@DB_SETTINGS_HOST@@',
+    'dbname'   => '@@DB_SETTINGS_DATABASE@@',
+    'user'     => '@@DB_SETTINGS_USERNAME@@',
+    'password' => '@@DB_SETTINGS_PASSWORD@@'
+];

@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<QBXML>
+  <QBXMLMsgsRs>
+    <InvoiceAddRs statusCode="0" statusSeverity="Info" statusMessage="Status OK">
+      <InvoiceRet>
+        <TxnID>C-1357704195</TxnID>
+        <TimeCreated>2013-01-08T22:03:15-06:00</TimeCreated>
+        <TimeModified>2013-01-08T22:03:15-06:00</TimeModified>
+        <EditSequence>1357704195</EditSequence>
+        <TxnNumber>4</TxnNumber>
+        <CustomerRef>
+          <ListID>80000004-1357392435</ListID>
+          <FullName>Jerry Smith</FullName>
+        </CustomerRef>
+        <ARAccountRef>
+          <ListID>80000020-1357703470</ListID>
+          <FullName>Accounts Receivable</FullName>
+        </ARAccountRef>
+        <TemplateRef>
+          <ListID>80000001-1357067557</ListID>
+          <FullName>Intuit Product Invoice</FullName>
+        </TemplateRef>
+        <TxnDate>2013-01-09</TxnDate>
+        <RefNumber>2</RefNumber>
+        <IsPending>false</IsPending>
+        <IsFinanceCharge>false</IsFinanceCharge>
+        <DueDate>2013-01-09</DueDate>
+        <ShipDate>2013-01-09</ShipDate>
+        <Subtotal>400.00</Subtotal>
+        <ItemSalesTaxRef>
+          <ListID>80000001-1357067958</ListID>
+          <FullName>Out of State</FullName>
+        </ItemSalesTaxRef>
+        <SalesTaxPercentage>0.00</SalesTaxPercentage>
+        <SalesTaxTotal>0.00</SalesTaxTotal>
+        <AppliedAmount>0.00</AppliedAmount>
+        <BalanceRemaining>400.00</BalanceRemaining>
+        <Memo>this is a test invoice</Memo>
+        <IsPaid>false</IsPaid>
+        <IsToBePrinted>false</IsToBePrinted>
+        <IsToBeEmailed>false</IsToBeEmailed>
+        <CustomerSalesTaxCodeRef>
+          <ListID>80000001-1357067558</ListID>
+          <FullName>Tax</FullName>
+        </CustomerSalesTaxCodeRef>
+        <InvoiceLineRet>
+          <TxnLineID>E-1357704195</TxnLineID>
+          <ItemRef>
+            <ListID>80000002-1357068489</ListID>
+            <FullName>BMRate</FullName>
+          </ItemRef>
+          <Desc>BMRate</Desc>
+          <Quantity>4</Quantity>
+          <Rate>100.00</Rate>
+          <Amount>400.00</Amount>
+          <SalesTaxCodeRef>
+            <ListID>80000001-1357067558</ListID>
+            <FullName>Tax</FullName>
+          </SalesTaxCodeRef>
+        </InvoiceLineRet>
+      </InvoiceRet>
+    </InvoiceAddRs>
+  </QBXMLMsgsRs>
+</QBXML>

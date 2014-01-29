@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<QBXML>
+  <QBXMLMsgsRs>
+    <ItemQueryRs statusCode="0" statusSeverity="Info" statusMessage="Status OK">
+      <ItemFixedAssetRet>
+        <ListID>800012C1-1321057693</ListID>
+        <TimeCreated>2011-11-11T18:28:13-06:00</TimeCreated>
+        <TimeModified>2012-05-03T09:31:33-06:00</TimeModified>
+        <EditSequence>1336055493</EditSequence>
+        <Name>2801-51</Name>
+        <IsActive>true</IsActive>
+        <AcquiredAs>New</AcquiredAs>
+        <PurchaseDesc>ALLY5614</PurchaseDesc>
+        <PurchaseDate>2011-10-24</PurchaseDate>
+        <PurchaseCost>19399.46</PurchaseCost>
+        <VendorOrPayeeName>ALLY9629</VendorOrPayeeName>
+        <AssetAccountRef>
+          <ListID>80000036-1314576588</ListID>
+          <FullName>Autos &amp; Trucks</FullName>
+        </AssetAccountRef>
+        <AssetDesc>1GTN1TEXXBZ406120</AssetDesc>
+        <Location>Dilido</Location>
+      </ItemFixedAssetRet>
+    </ItemQueryRs>
+  </QBXMLMsgsRs>
+</QBXML>
